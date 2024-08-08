@@ -25,6 +25,7 @@ showOverlay.addEventListener('click', ApplyHiddenAction);
 
 
 //hide the card and blure using only the Escape Button!!!!!
+//the e as an argument in function when we do console log it show us the object the has been pressed contained the ex. key:"Escape"...
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
     ApplyHiddenAction();
